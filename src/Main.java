@@ -1,5 +1,7 @@
 void main() {
-
+    task2();
+}
+void task1(){
     Vector3d A = new Vector3d(5, 6, 3);
     Vector3d B = new Vector3d(5, 6, -3);
     System.out.println("vector A: " + A);
@@ -12,5 +14,11 @@ void main() {
     System.out.println("len B: " + B.lenVector());
     System.out.println("what longer: " + A.whatlonger(B));
     System.out.println("equals: " + A.equal(B));
+}
+void task2(){
+    Conus A = new Conus(3, 4);
+    System.out.println("conus value: " + A);
+    System.out.println("conus S: " + A.S());
+    System.out.println("conus V: " + A.V());
 
 }
