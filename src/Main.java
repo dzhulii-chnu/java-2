@@ -1,5 +1,6 @@
 void main() {
-    task2();
+
+    task3();
 }
 void task1(){
     Vector3d A = new Vector3d(5, 6, 3);
@@ -20,5 +21,10 @@ void task2(){
     System.out.println("conus value: " + A);
     System.out.println("conus S: " + A.S());
     System.out.println("conus V: " + A.V());
+
+}
+void task3(){
+    Count_sum task = new Count_sum("3 + 5 * 8 - 80");
+    System.out.println(task);
 
 }

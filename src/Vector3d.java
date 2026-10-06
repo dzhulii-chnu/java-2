@@ -27,12 +27,7 @@ public class Vector3d{
     public double lenVector(){
         return Math.sqrt((x * x) + (y * y) + (z * z));
     }
-    public boolean equal(Vector3d other){
-        if (this == other){
-            return true;
-        }
-        else return false;
-    }
+
     public String whatlonger(Vector3d other){
         double diff = this.lenVector() - other.lenVector();
         if (diff == 0){
@@ -45,6 +40,12 @@ public class Vector3d{
     @Override
     public String toString() {
         return "(" + x + "; " + y + "; " + z + ")";
+    }
+    public boolean equal(Vector3d other){
+        if (this == other){
+            return true;
+        }
+        else return false;
     }
 
 }
