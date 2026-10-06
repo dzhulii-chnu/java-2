@@ -1,5 +1,6 @@
 void main() {
-
+    task1();
+    task2();
     task3();
 }
 void task1(){
@@ -26,5 +27,7 @@ void task2(){
 void task3(){
     Count_sum task = new Count_sum("3 + 5 * 8 - 80");
     System.out.println(task);
+    Count_sum task1 = new Count_sum("6 - 3 * 2 * 3");
+    System.out.println(task1);
 
 }
